@@ -1,9 +1,11 @@
+# podajemy link do repo w którym znajduje siê plik konfiguracyjny 'configuration'
 spring:
   cloud:
     config:
       server:
         git:
-          url: https://github.com/Agata95/configuration.git
+          uri: https://github.com/Agata95/configuration.git
 eureka:
   client:
-    service-url: http://localhost:8010/eureka/
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
