@@ -1,0 +1,7 @@
+# ładuje się przed uruchomieniem aplikacji
+# tutaj wppisujemy konfiguracje nazwy aplikacji 'config-server'
+spring:
+  application:
+    name: config-server
+server:
+  port: 8002
